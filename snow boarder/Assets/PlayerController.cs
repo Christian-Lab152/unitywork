@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PLAYERcontroller : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] float torqueAmount = 1f;
     Rigidbody2D rb2d;
@@ -17,11 +17,11 @@ public class PLAYERcontroller : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.LeftArrow))
         {
-	  	rb2d.AddTorque(torqueAmount);
-	  } 
-        else if(Input.GetKey(KeyCode.RightArrow))
+            rb2d.AddTorque(torqueAmount);        
+        }
+        if(Input.GetKey(KeyCode.RightArrow))
         {
-	  	rb2d.AddTorque(-torqueAmount);
-	  } 
+            rb2d.AddTorque(-torqueAmount);        
+        }
     }
 }
