@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709c9e431402fc84e9cb3526055fd472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadDelay: 1
 --- !u!61 &98990066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -344,7 +345,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.55, y: 2.02}
@@ -359,7 +360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 417275612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6544c5979531b2479668d9594ace3ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bca67ae115703f43941fcbfab803f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   torqueAmount: 10
@@ -372,9 +373,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 417275612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a7d832566a36d64a856cb49a7132bb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f01520c0637c3f45aa047565bbc43af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadDelay: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.241236, y: 9.10408, z: -10}
+  m_LocalPosition: {x: -17.159332, y: 9.10408, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -566,7 +568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872785250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.241236, y: 9.10408, z: -10}
+  m_LocalPosition: {x: -17.159332, y: 9.10408, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
